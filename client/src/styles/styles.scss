@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+//Colors
+$primary: #FFE600;
+$secondary : #EEEEEE;
+$terceary: #999999;
+$letter: #666666;
+$button: #3483FA;
+
+body, html {
+  background-color: $secondary;
+  font-family: 'Roboto';
+}
+
+//Components
+.search_box{    
+  background-color: $primary;
+  width: 100vw;
+  height: 50px;
+}
+
+.container_search{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.input_search{
+  width: 50%;
+  height: 28px;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 1.5%;
+  padding-left: 1rem;
+}
+
+.button_search{
+  cursor: pointer;
+  border:none;
+  height: 30px;
+  margin-top: 0.5rem;
+}
+
+.logo_search{
+  height: 30px;
+  margin-top: 0.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.items_container_two {  
+  margin-left: 16px;
+  margin-top: 0.1rem;
+  width: 100vw;
+  display: flex; 
+  
+}
+
+.items_container { 
+  cursor: pointer; 
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 76vw; 
+  display: flex;  
+  background-color: #ffffff;  
+  
+}
+
+.items_img{
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.items_location {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.details_container_two{
+  margin-top: 2rem;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;  
+
+}
+
+.details_container {  
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 55vw; 
+  display: flexbox;  
+  background-color: #ffffff;  
+}
+.detail_image{
+  width: 30vw;  
+}
+.detail_box {  
+  margin-left: 4rem;  
+}
+
+
+.detail_subtittle {
+  font-weight: 900;
+  font-size: 14px;  
+}
+
+.detail_tittle {  
+  font-size: 24px;
+  margin-top: 0rem;
+  font-family: 'Noto Sans JP';
+  font-weight: bold;
+}
+
+.detail_price{
+  font-weight: 900;
+  font-size: 36px;
+  margin-top: 0rem;
+  margin-bottom: 1rem;  
+}
+
+.detail_button{
+  width: 17vw;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  background-color: $button;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.detail_description_tittle {
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 2rem;
+  margin-top: 4rem;
+}
+
+.detail_description {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 8rem;
+  margin-left: 2rem;
+  color:$letter;
+  letter-spacing: 0.03em;
+}
